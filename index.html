@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Francezza Annabell Valeny</title>
+    <style>
+        /* Base Styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #1a1a1a;
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+            letter-spacing: 2px;
+        }
+
+        /* Navigation Styles */
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 20px;
+            text-decoration: none;
+            font-size: 1.1em;
+            text-transform: uppercase;
+            font-weight: bold;
+            padding: 10px 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #1a1a1a;
+            border-radius: 50px;
+        }
+
+        /* Main Content Styles */
+        main {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #fff;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+
+        .content-section {
+            margin-bottom: 60px;
+        }
+
+        .content-section h2 {
+            font-size: 2em;
+            color: #333;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #1a1a1a;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .content-section p {
+            font-size: 1.1em;
+            color: #666;
+            max-width: 800px;
+            margin-bottom: 30px;
+        }
+
+        /* About Section Styling */
+        .about-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 40px;
+        }
+
+        .about-content img {
+            border-radius: 10px;
+            max-width: 300px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Projects Section Styles */
+        .project-grid {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .project-card {
+            background-color: #f4f4f4;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            flex-basis: calc(50% - 20px);
+        }
+
+        .project-card img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .project-card h3 {
+            margin-top: 0;
+            font-size: 1.5em;
+        }
+
+        /* Certifications Section */
+        .certifications-content p {
+            font-size: 1.1em;
+            margin-bottom: 15px;
+            color: #666;
+        }
+
+        /* Button Styles */
+        .btn {
+            background-color: #1a1a1a;
+            color: #fff;
+            padding: 10px 30px;
+            text-transform: uppercase;
+            font-weight: bold;
+            border-radius: 30px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #333;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #1a1a1a;
+            color: #ccc;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .about-content {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .about-content img {
+                margin-bottom: 20px;
+                max-width: 100%;
+            }
+
+            nav a {
+                margin: 0 10px;
+                font-size: 1em;
+            }
+
+            main {
+                padding: 20px 10px;
+            }
+
+            .content-section h2 {
+                font-size: 1.8em;
+            }
+
+            .content-section p {
+                font-size: 1em;
+            }
+
+            .project-card {
+                flex-basis: 100%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            nav a {
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Francezza Annabell Valeny</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+        <section id="about" class="content-section">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="image-here.jpg" alt="Francezza Annabell Valeny">
+                <p>Hello! My name is Francezza, a high school student passionate about Pharmaceutical Sciences. I love exploring the intersection of science, innovation, and creative design.</p>
+            </div>
+        </section>
+
+        <section id="projects" class="content-section">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="project1.jpg" alt="Project 1">
+                    <h3>Project Title 1</h3>
+                    <p>A brief description of the project, highlighting its purpose and results.</p>
+                    <a href="project1.html" class="btn">View Details</a>
+                </div>
+
+                <div class="project-card">
+                    <img src="project2.jpg" alt="Project 2">
+                    <h3>Project Title 2</h3>
+                    <p>A brief description of another project, focusing on key accomplishments.</p>
+                    <a href="project2.html" class="btn">View Details</a>
+                </div>
+                <!-- Add more project cards as needed -->
+            </div>
+        </section>
+
+        <section id="certifications" class="content-section">
+            <h2>Certifications</h2>
+            <div class="certifications-content">
+                <p>I have completed certifications in areas related to pharmaceutical sciences and research. These certifications enhance my knowledge and skill set, enabling me to explore further opportunities in this field.</p>
+                <a href="#contact" class="btn">Get in Touch</a>
+            </div>
+        </section>
+
+        <section id="contact" class="content-section">
+            <h2>Contact</h2>
+            <p>Feel free to reach out to me for any collaboration or inquiries. <br>
+                <strong>Instagram:</strong> @francezza_vly<br>
+                <strong>Phone:</strong> +62811983611 <br>
+                <strong>Email:</strong> francezzav@gmail.com
+            </p>
+            <a href="#contact" class="btn">Get in Touch</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Francezza Annabell Valeny | Designed by Me</p>
+    </footer>
+
+</body>
+</html>
